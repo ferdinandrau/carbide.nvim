@@ -45,7 +45,7 @@ local DEFAULT_PALETTE = {
     },
     dark = {
         -- bg shades
-        bg1 = "#1e1e1e", -- main
+        bg1 = "#1c1c1c", -- main
         bg2 = "#19191a", -- float
         bg3 = "#222223", -- statuscolumn, winbar
         bg4 = "#292a2a", -- cursorline, cursorcolumn
@@ -66,22 +66,22 @@ local DEFAULT_PALETTE = {
         fg1 = "#c9c3b8", -- ui, buffer content
         fg3 = "#878083", -- ui secondary
         fg2 = "#736a6a", -- buffer content secondary
-        fg4 = "#4a4546", -- ui dim
-        fg5 = "#343233", -- ui faint
-        fg6 = "#7d7669", -- buffer content delims
+        fg4 = "#454041", -- ui dim
+        fg5 = "#2d2929", -- ui faint
+        fg6 = "#8f867b", -- buffer content delims
 
-        fgc_red = "#bc5b59",
+        fgc_red = "#C55350",
         fgc_red_dim = "#D47766",
         fgc_green = "#889b4a",
         fgc_green_dim = "#9FB95E",
-        fgc_yellow = "#d89951",
-        fgc_yellow_dim = "#dbb35e",
-        fgc_magenta = "#aa658e",
-        fgc_magenta_dim = "#c39fb0",
+        fgc_yellow = "#E09A49",
+        fgc_yellow_dim = "#EFC05E",
+        fgc_magenta = "#B26E97",
+        fgc_magenta_dim = "#a197c5",
         fgc_blue = "#537f9f",
-        fgc_blue_dim = "#799baf",
+        fgc_blue_dim = "#8fa8b7",
         fgc_cyan = "#719F91",
-        fgc_cyan_dim = "#7c938c",
+        fgc_cyan_dim = "#72abad",
     },
 }
 
