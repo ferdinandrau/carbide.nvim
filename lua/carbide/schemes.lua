@@ -264,7 +264,7 @@ local function fill_default_scheme(colors)
             DiagnosticInfo = { fg = colors.fgc_blue },
             DiagnosticHint = { fg = colors.fgc_magenta },
             DiagnosticOk = { fg = colors.fgc_green },
-            DiagnosticUnnecessary = { sp = colors.fg4, undercurl = true },
+            DiagnosticUnnecessary = { fg = colors.fg3, sp = colors.fg2, undercurl = true },
             DiagnosticDeprecated = { sp = colors.fgc_yellow, strikethrough = true },
             DiagnosticSignError = { fg = colors.fgc_red, bg = gutter_bg },
             DiagnosticSignWarn = { fg = colors.fgc_yellow, bg = gutter_bg },

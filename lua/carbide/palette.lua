@@ -64,8 +64,8 @@ local DEFAULT_PALETTE = {
 
         -- fg shades
         fg1 = "#c9c3b8", -- ui, buffer content
-        fg3 = "#878083", -- ui secondary
         fg2 = "#736a6a", -- buffer content secondary
+        fg3 = "#878083", -- ui secondary
         fg4 = "#454041", -- ui dim
         fg5 = "#2d2929", -- ui faint
         fg6 = "#8f867b", -- buffer content delims
