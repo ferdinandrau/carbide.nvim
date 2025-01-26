@@ -45,13 +45,13 @@ local DEFAULT_PALETTE = {
     },
     dark = {
         -- bg shades
-        bg1 = "#1c1c1c", -- main
-        bg2 = "#191919", -- float
-        bg3 = "#222222", -- statuscolumn, winbar
+        bg1 = "#1e1e1e", -- main
+        bg2 = "#19191a", -- float
+        bg3 = "#222223", -- statuscolumn, winbar
         bg4 = "#292a2a", -- cursorline, cursorcolumn
         bg5 = "#323334", -- statusline, tabline
-        bg6 = "#3d3d3d", -- pmenu
-        bg7 = "#514a4a", -- item sel
+        bg6 = "#3d3d3e", -- pmenu
+        bg7 = "#4d4a50", -- item sel
         bg8 = "#424852", -- text sel
 
         -- bg colors
@@ -63,11 +63,11 @@ local DEFAULT_PALETTE = {
         bgc_magenta = "#312430",
 
         -- fg shades
-        fg1 = "#c4c3b8", -- ui, buffer content
+        fg1 = "#c9c3b8", -- ui, buffer content
         fg3 = "#878083", -- ui secondary
         fg2 = "#736a6a", -- buffer content secondary
-        fg4 = "#4A4443", -- ui dim
-        fg5 = "#333132", -- ui faint
+        fg4 = "#4a4546", -- ui dim
+        fg5 = "#343233", -- ui faint
         fg6 = "#7d7669", -- buffer content delims
 
         fgc_red = "#bc5b59",
