@@ -47,8 +47,8 @@ local DEFAULT_PALETTE = {
         -- bg shades
         bg1 = "#1c1c1c", -- main
         bg2 = "#19191a", -- float
-        bg3 = "#222223", -- statuscolumn, winbar
-        bg4 = "#292a2a", -- cursorline, cursorcolumn
+        bg3 = "#202021", -- statuscolumn, winbar
+        bg4 = "#252424", -- cursorline, cursorcolumn
         bg5 = "#323334", -- statusline, tabline
         bg6 = "#3d3d3e", -- pmenu
         bg7 = "#4d4a50", -- item sel
@@ -67,7 +67,7 @@ local DEFAULT_PALETTE = {
         fg2 = "#736a6a", -- buffer content secondary
         fg3 = "#878083", -- ui secondary
         fg4 = "#454041", -- ui dim
-        fg5 = "#2d2929", -- ui faint
+        fg5 = "#302c2d", -- ui faint
         fg6 = "#8f867b", -- buffer content delims
 
         fgc_red = "#C55350",
