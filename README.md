@@ -109,8 +109,8 @@ require('carbide').setup({
         dark = {
             bg1 = '#17131C',
             bg2 = '#222028',
-            green = '#0F5722',
-            blue = '#0B4AED',
+            fgc_green = '#0F5722',
+            fgc_blue = '#0B4AED',
         },
     },
 })
