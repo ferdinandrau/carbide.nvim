@@ -264,7 +264,7 @@ local function fill_default_scheme(colors)
             DiagnosticInfo = { fg = colors.fgc_blue },
             DiagnosticHint = { fg = colors.fgc_magenta },
             DiagnosticOk = { fg = colors.fgc_green },
-            DiagnosticUnnecessary = { fg = colors.fg3, sp = colors.fg2, undercurl = true },
+            DiagnosticUnnecessary = { fg = colors.fg3 },
             DiagnosticDeprecated = { sp = colors.fgc_yellow, strikethrough = true },
             DiagnosticSignError = { fg = colors.fgc_red, bg = gutter_bg },
             DiagnosticSignWarn = { fg = colors.fgc_yellow, bg = gutter_bg },
@@ -278,9 +278,9 @@ local function fill_default_scheme(colors)
             DiagnosticVirtualTextOK = { fg = colors.fgc_green, bg = colors.bgc_green },
             DiagnosticUnderlineError = { sp = colors.fgc_red, undercurl = true },
             DiagnosticUnderlineWarn = { sp = colors.fgc_yellow, undercurl = true },
-            DiagnosticUnderlineInfo = { sp = colors.fgc_blue, undercurl = true },
-            DiagnosticUnderlineHint = { sp = colors.fgc_magenta, undercurl = true },
-            DiagnosticUnderlineOk = { sp = colors.fgc_green, undercurl = true },
+            DiagnosticUnderlineInfo = { sp = colors.fgc_blue, underline = true },
+            DiagnosticUnderlineHint = { sp = colors.fgc_magenta, underline = true },
+            DiagnosticUnderlineOk = { sp = colors.fgc_green, underline = true },
 
             -- :help lsp-highlight
 
