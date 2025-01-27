@@ -171,19 +171,19 @@ local function fill_default_scheme(colors)
             -- :help treesitter-highlight-groups
 
             ["@variable"] = { link = "Identifier" },
-            ["@module"] = { fg = colors.fgc_red },
             ["@variable.builtin"] = { link = "Identifier" },
-            ["@variable.member"] = { link = "Identifier" },
             ["@variable.parameter"] = { link = "Identifier" },
             ["@variable.parameter.builtin"] = { link = "Identifier" },
+            ["@variable.member"] = { link = "Identifier" },
 
-            ["@number"] = { link = "Number" },
-            ["@number.float"] = { link = "Number" },
-            ["@boolean"] = { link = "Boolean" },
+            ["@constant"] = { link = "Constant" },
+            ["@constant.builtin"] = { link = "Constant" },
+            ["@constant.macro"] = { link = "Constant" },
 
-            ["@character"] = { link = "Character" },
-            ["@character.special"] = { link = "SpecialChar" },
-            ["@character.printf"] = { link = "SpecialChar" },
+            ["@module"] = { fg = colors.fgc_red },
+            ["@module.builtin"] = { link = "@module" },
+
+            ["@label"] = { link = "Label" },
 
             ["@string"] = { link = "String" },
             ["@string.documentation"] = { fg = colors.fgc_green_dim },
@@ -194,24 +194,37 @@ local function fill_default_scheme(colors)
             ["@string.special.path"] = { link = "SpecialChar" },
             ["@string.special.url"] = { link = "@markup.link" },
 
-            ["@constant"] = { link = "Constant" },
-            ["@constant.builtin"] = { link = "Constant" },
-            ["@constant.macro"] = { link = "Constant" },
+            ["@character"] = { link = "Character" },
+            ["@character.special"] = { link = "SpecialChar" },
+            ["@character.printf"] = { link = "SpecialChar" },
 
-            ["@constructor"] = { fg = colors.fgc_blue },
-            ["@constructor.lua"] = { fg = colors.fg6 },
+            ["@boolean"] = { link = "Boolean" },
+
+            ["@number"] = { link = "Number" },
+            ["@number.float"] = { link = "Number" },
+
+            ["@type"] = { link = "Type" },
+            ["@type.builtin"] = { link = "Type" },
+            ["@type.definition"] = { link = "Type" },
+
+            ["@attribute"] = { fg = colors.fgc_green_dim },
+            ["@attribute.builtin"] = { link = "@attribute" },
+
+            ["@property"] = { link = "@variable.member" },
 
             ["@function"] = { link = "Function" },
             ["@function.macro"] = { fg = colors.fgc_blue },
             ["@function.builtin"] = { link = "Keyword" },
+
+            ["@constructor"] = { fg = colors.fgc_blue },
+            ["@constructor.lua"] = { fg = colors.fg6 },
+
+            ["@operator"] = { link = "Operator" },
+
             ["@keyword"] = { link = "Keyword" },
-            ["@keyword.operator"] = { link = "operator" },
-            ["@label"] = { link = "Label" },
-
-            ["@property"] = { link = "@variable.member" },
-
-            --
+            ["@keyword.operator"] = { link = "Operator" },
             ["@keyword.directive"] = { fg = colors.fgc_magenta_dim },
+            ["@keyword.import.c"] = { fg = colors.fgc_magenta_dim },
 
             ["@punctuation.delimiter"] = { link = "Delimiter" },
             ["@punctuation.bracket"] = { link = "Delimiter" },
@@ -248,14 +261,6 @@ local function fill_default_scheme(colors)
             ["@tag.builtin"] = { fg = colors.fgc_magenta },
             ["@tag.attribute"] = { fg = colors.fgc_cyan },
             ["@tag.delimiter"] = { link = "Delimiter" },
-            --
-            ["@keyword.import.c"] = { fg = colors.fgc_magenta_dim },
-
-            ["@operator"] = { link = "Operator" },
-
-            ["@type"] = { link = "Type" },
-            ["@type.builtin"] = { link = "Type" },
-            ["@type.definition"] = { link = "Type" },
 
             -- :help diagnostic-highlights
 
