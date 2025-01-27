@@ -359,8 +359,8 @@ local function fill_default_scheme(colors)
         -- https://github.com/lukas-reineke/indent-blankline.nvim
         plugins["indent-blankline.nvim"]
                 and {
-                    IblIndent = { link = "NonText" },
-                    IblScope = { link = "Conceal" },
+                    IblIndent = { fg = colors.fg5 },
+                    IblScope = { fg = colors.fg4 },
                 }
             or {},
 
