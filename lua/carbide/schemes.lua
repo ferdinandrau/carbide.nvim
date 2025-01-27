@@ -389,14 +389,17 @@ local function fill_default_scheme(colors)
         -- https://github.com/nvim-tree/nvim-tree.lua
         plugins["nvim-tree.lua"]
                 and {
+                    NvimTreeNormal = { bg = colors.bg3 },
+                    NvimTreeWinSeparator = solid and { fg = colors.fg4, bg = colors.bg3 } or { link = "WinSeparator" },
+                    NvimTreeFolderName = { fg = colors.fgc_blue },
+                    NvimTreeOpenedFolderName = { link = "NvimTreeFolderName" },
+                    NvimTreeFolderIcon = { fg = colors.fgc_blue_dim },
+                    NvimTreeSymlink = { fg = colors.fgc_cyan },
+                    NvimTreeSymlinkFolderName = { link = "Directory" },
+                    NvimTreeSymlinkIcon = { fg = colors.fg2 },
                     NvimTreeFolderArrowClosed = { fg = colors.fg3 },
                     NvimTreeFolderArrowOpen = { fg = colors.fg3 },
-                    NvimTreeFolderIcon = { fg = colors.fgc_blue_dim },
-                    NvimTreeFolderName = { fg = colors.fgc_blue },
-                    NvimTreeIndentMarker = { fg = colors.fg5 },
-                    NvimTreeNormal = { bg = colors.bg3 },
-                    NvimTreeOpenedFolderName = { link = "NvimTreeFolderName" },
-                    NvimTreeWinSeparator = solid and { fg = colors.fg5, bg = colors.bg3 } or { link = "WinSeparator" },
+                    NvimTreeIndentMarker = { fg = colors.fg4 },
                 }
             or {},
 
