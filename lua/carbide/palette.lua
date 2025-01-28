@@ -6,9 +6,9 @@ local DEFAULT_PALETTE = {
         -- bg shades
         bg1 = "#efefef",
         bg2 = "#f7f7f7",
-        bg3 = "#eae9e8",
-        bg4 = "#e0e1df",
-        bg5 = "#dbdad9",
+        bg3 = "#ecebeb",
+        bg4 = "#e6e6e6",
+        bg5 = "#dfdede",
         bg6 = "#d5d5d3",
         bg7 = "#b0afb1",
         bg8 = "#bdc0d2",
@@ -23,10 +23,10 @@ local DEFAULT_PALETTE = {
 
         -- fg shades
         fg1 = "#343232",
-        fg2 = "#8C8A8B",
+        fg2 = "#908e8f",
         fg3 = "#646364",
-        fg4 = "#a2a09f",
-        fg5 = "#c0bebd",
+        fg4 = "#b4b4b4",
+        fg5 = "#d7d7d7",
         fg6 = "#60564c",
 
         -- fg colors
@@ -45,14 +45,14 @@ local DEFAULT_PALETTE = {
     },
     dark = {
         -- bg shades
-        bg1 = "#1c1c1c", -- main
-        bg2 = "#19191a", -- float
-        bg3 = "#202021", -- statuscolumn, winbar
-        bg4 = "#252424", -- cursorline, cursorcolumn
-        bg5 = "#323334", -- statusline, tabline
-        bg6 = "#3d3d3e", -- pmenu
-        bg7 = "#4d4a50", -- item sel
-        bg8 = "#424852", -- text sel
+        bg1 = "#1c1c1c",
+        bg2 = "#19191a",
+        bg3 = "#1f1f1f",
+        bg4 = "#252424",
+        bg5 = "#323334",
+        bg6 = "#3d3d3e",
+        bg7 = "#4d4a50",
+        bg8 = "#424852",
 
         -- bg colors
         bgc_red = "#432224",
@@ -63,13 +63,14 @@ local DEFAULT_PALETTE = {
         bgc_magenta = "#312430",
 
         -- fg shades
-        fg1 = "#c9c3b8", -- ui, buffer content
-        fg2 = "#736a6a", -- buffer content secondary
-        fg3 = "#878083", -- ui secondary
-        fg4 = "#454041", -- ui dim
-        fg5 = "#302c2d", -- ui faint
-        fg6 = "#8f867b", -- buffer content delims
+        fg1 = "#c9c3b8",
+        fg2 = "#736a6a",
+        fg3 = "#878083",
+        fg4 = "#494646",
+        fg5 = "#343031",
+        fg6 = "#8f867b",
 
+        -- fg colors
         fgc_red = "#C55350",
         fgc_red_dim = "#D47766",
         fgc_green = "#889b4a",
