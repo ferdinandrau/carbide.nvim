@@ -51,7 +51,7 @@ local function fill_default_scheme(colors)
             CursorLineFold = { link = "CursorLineSign" },
 
             WinBar = { fg = colors.fg1, bg = colors.bg3 },
-            WinBarNC = { fg = colors.fg2, bg = colors.bg3 },
+            WinBarNC = { fg = colors.fg3, bg = colors.bg3 },
 
             StatusLine = { fg = colors.fg1, bg = colors.bg5 },
             StatusLineNC = { fg = colors.fg3, bg = colors.bg5 },

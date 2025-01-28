@@ -6,8 +6,8 @@ local DEFAULT_PALETTE = {
         -- bg shades
         bg1 = "#efefef",
         bg2 = "#f7f7f7",
-        bg3 = "#ecebeb",
-        bg4 = "#e6e6e6",
+        bg3 = "#e8e8e8",
+        bg4 = "#e4e3e4",
         bg5 = "#dfdede",
         bg6 = "#d5d5d3",
         bg7 = "#b0afb1",
@@ -22,15 +22,15 @@ local DEFAULT_PALETTE = {
         bgc_magenta = "#d5c7e0",
 
         -- fg shades
-        fg1 = "#343232",
+        fg1 = "#3c3c3c",
         fg2 = "#908e8f",
-        fg3 = "#646364",
+        fg3 = "#7b7b7a",
         fg4 = "#b4b4b4",
         fg5 = "#d7d7d7",
-        fg6 = "#60564c",
+        fg6 = "#6e6466",
 
         -- fg colors
-        fgc_red = "#CE403B",
+        fgc_red = "#ba3a35",
         fgc_red_dim = "#F74D47",
         fgc_yellow = "#E5A239",
         fgc_yellow_dim = "#E8BD3E",
@@ -47,8 +47,8 @@ local DEFAULT_PALETTE = {
         -- bg shades
         bg1 = "#1c1c1c",
         bg2 = "#19191a",
-        bg3 = "#1f1f1f",
-        bg4 = "#252424",
+        bg3 = "#202020",
+        bg4 = "#252525",
         bg5 = "#323334",
         bg6 = "#3d3d3e",
         bg7 = "#4d4a50",
@@ -65,8 +65,8 @@ local DEFAULT_PALETTE = {
         -- fg shades
         fg1 = "#c9c3b8",
         fg2 = "#736a6a",
-        fg3 = "#878083",
-        fg4 = "#494646",
+        fg3 = "#888184",
+        fg4 = "#494849",
         fg5 = "#343031",
         fg6 = "#8f867b",
 
