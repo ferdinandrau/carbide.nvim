@@ -7,16 +7,6 @@ local M = {}
 ---@type boolean
 local did_setup_without_apply = false
 
----@param arg string
-local function error_invalid_version(arg)
-    vim.notify(
-        ('carbide.nvim: "%s" is not a valid argument for `apply`. Use "light", "dark" or `nil` (no argument).'):format(
-            arg
-        ),
-        vim.log.levels.ERROR
-    )
-end
-
 ---@param colors carbide.Colors
 ---@param variant carbide.Variant
 local function set_terminal_colors(colors, variant)
@@ -65,7 +55,12 @@ M.apply = function(version)
         name = "carbide-dark"
         variant = "dark"
     else
-        error_invalid_version(tostring(version))
+        vim.notify(
+            ('carbide.nvim: "%s" is not a valid argument for `apply`. Use "light", "dark" or `nil` (no argument).'):format(
+                tostring(version)
+            ),
+            vim.log.levels.ERROR
+        )
         return
     end
 
