@@ -6,7 +6,7 @@ local DEFAULT_PALETTE = {
         -- bg shades
         bg1 = "#efefef",
         bg2 = "#f7f7f7",
-        bg3 = "#e8e8e8",
+        bg3 = "#eaeaea",
         bg4 = "#e4e3e4",
         bg5 = "#dfdede",
         bg6 = "#d5d5d3",
@@ -15,9 +15,9 @@ local DEFAULT_PALETTE = {
 
         -- bg colors
         bgc_red = "#ffcccc",
-        bgc_green = "#e8d7b4",
-        bgc_blue = "#e0ecc4",
-        bgc_yellow = "#d1e3f0",
+        bgc_green = "#e0ecc4",
+        bgc_blue = "#d1e3f0",
+        bgc_yellow = "#e8d7b4",
         bgc_cyan = "#c7d6d3",
         bgc_magenta = "#d5c7e0",
 
@@ -27,7 +27,7 @@ local DEFAULT_PALETTE = {
         fg3 = "#7b7b7a",
         fg4 = "#b4b4b4",
         fg5 = "#d7d7d7",
-        fg6 = "#6e6466",
+        fg6 = "#756b6c",
 
         -- fg colors
         fgc_red = "#ba3a35",
