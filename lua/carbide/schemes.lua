@@ -150,7 +150,7 @@ local function fill_default_scheme(colors)
             Debug = { link = "Special" },
             Error = { bg = colors.fgc_red },
 
-            Function = { fg = colors.fgc_blue_dim },
+            Function = { fg = colors.fgc_blue_dim, bold = style.functions.bold, italic = style.functions.italic },
 
             Identifier = { fg = colors.fg1, bold = style.variables.bold, italic = style.variables.italic },
             Constant = { fg = colors.fgc_yellow_dim, bold = style.variables.bold, italic = style.variables.italic },
@@ -384,10 +384,10 @@ local function fill_default_scheme(colors)
         -- https://github.com/nvim-telescope/telescope.nvim
         plugins["telescope.nvim"]
                 and {
-                    TelescopeBorder = { link = "FloatBorder" },
                     TelescopeNormal = { link = "NormalFloat" },
-                    TelescopeSelection = { link = "PmenuSel" },
+                    TelescopeBorder = { link = "FloatBorder" },
                     TelescopeTitle = { link = "FloatTitle" },
+                    TelescopeSelection = { link = "PmenuSel" },
                 }
             or {},
 
@@ -408,7 +408,7 @@ local function fill_default_scheme(colors)
                 }
             or {},
 
-        -- https://github.com/nvim-tree/nvim-tree.lua
+        -- https://github.com/echasnovski/mini.icons
         plugins["mini.icons"]
                 and {
                     MiniIconsAzure = { fg = colors.fgc_blue_dim },
@@ -423,16 +423,35 @@ local function fill_default_scheme(colors)
                 }
             or {},
 
-        -- work-in-progress plugin integrations
+        -- https://github.com/hrsh7th/nvim-cmp
+        plugins["nvim-cmp"]
+                and {
+                    CmpItemAbbr = { fg = colors.fg3 },
+                    CmpItemAbbrDeprecated = { fg = colors.fg3, sp = colors.fgc_yellow, strikethrough = true },
+                    CmpItemAbbrMatch = { fg = colors.fg1 },
+                    CmpItemAbbrMatchFuzzy = { link = "CmpItemAbbrMatch" },
+                    CmpItemKind = { link = "Special" },
+                    CmpItemMenu = { link = "PmenuExtra" },
+                }
+            or {},
 
+        -- https://github.com/Saghen/blink.cmp
+        plugins["blink.cmp"]
+                and {
+                    BlinkCmpLabel = { fg = colors.fg3 },
+                    BlinkCmpLabelDeprecated = { fg = colors.fg3, sp = colors.fgc_yellow, strikethrough = true },
+                    BlinkCmpLabelMatch = { fg = colors.fg1 },
+                    BlinkCmpLabelDetail = { link = "PmenuExtra" },
+                    BlinkCmpKind = { link = "Special" },
+                    BlinkCmpSource = { link = "PmenuExtra" },
+                    BlinkCmpGhostText = { link = "Conceal" },
+                }
+            or {},
+
+        -- work-in-progress plugin integrations
         {
             SnacksPickerDimmed = { fg = colors.fg3 },
             SnacksPickerDir = { fg = colors.fg4 },
-            BlinkCmpLabel = { fg = colors.fg3 },
-            BlinkCmpLabelMatch = { fg = colors.fg1 },
-            BlinkCmpLabelDetail = { fg = colors.fg3 },
-            BlinkCmpKind = { link = "Special" },
-            BlinkCmpSource = { fg = colors.fg3 },
         }
     )
 end

@@ -41,12 +41,14 @@
 
 ---@class (exact) carbide.ConfigOpts.Plugins
 ---@field lazy.nvim boolean
----@field nvim-tree.lua boolean
 ---@field mason.nvim boolean
 ---@field indent-blankline.nvim boolean
 ---@field gitsigns.nvim boolean
 ---@field telescope.nvim boolean
+---@field nvim-tree.lua boolean
 ---@field mini.icons boolean
+---@field nvim-cmp boolean
+---@field blink.cmp boolean
 
 ---@class (exact) carbide.Config
 ---@field fallback_background carbide.ConfigOpts.FallbackBackground
@@ -64,7 +66,7 @@
 
 ---@class (exact) carbide.PartialConfigOpts.Style
 ---@field transparent? boolean
----@field gutter? "line" | "extended" | "solid"
+---@field gutter? "editor" | "editor_extended" |  "solid" | "solid_extended"
 ---@field keywords? carbide.PartialConfigOpts.Style.BoldItalicStyle
 ---@field variables? carbide.PartialConfigOpts.Style.BoldItalicStyle
 ---@field functions? carbide.PartialConfigOpts.Style.BoldItalicStyle
@@ -73,12 +75,14 @@
 
 ---@class (exact) carbide.PartialConfigOpts.Plugins
 ---@field lazy.nvim? boolean
----@field nvim-tree.lua? boolean
 ---@field mason.nvim? boolean
 ---@field indent-blankline.nvim? boolean
 ---@field gitsigns.nvim? boolean
 ---@field telescope.nvim? boolean
+---@field nvim-tree.lua? boolean
 ---@field mini.icons? boolean
+---@field nvim-cmp? boolean
+---@field blink.cmp? boolean
 
 ---@class (exact) carbide.PartialConfig
 ---@field fallback_background? carbide.ConfigOpts.FallbackBackground
