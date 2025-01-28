@@ -1,4 +1,4 @@
-> 🚧 WIP -- Only use if your're not going to do customization yet! 🚧
+> 🚧 WIP – Only use if your're not going to do customization yet! 🚧
 
 <h3 align="center">carbide.nvim 🪨</h3>
 
@@ -164,7 +164,7 @@ The upcoming three subsections include everything there is to say about `setup`,
 
 **`fallback_background`**
 - **Expects:** `"light"` or `"dark"`
-- **Description:** The variant to use when the dynamic version (the `carbide` colorscheme) is applied and the `background` option is -- for some weird reason -- empty.
+- **Description:** The variant to use when the dynamic version (the `carbide` colorscheme) is applied and the `background` option is – for some weird reason – empty.
 
 **`style.transparent`**
 - **Expects:** `boolean`
@@ -330,16 +330,14 @@ require('carbide').setup({
 
 </details>
 
-## Extras 🎁
+## Extras 🧩
 
-To enable cursor highlighting, add something like this to your config:
-```lua
-vim.o.guicursor = vim.o.guicursor .. ',a:Cursor/lCursor' -- see :help 'guicursor'
-```
-
-You can query the current palette using `require('carbide.palette').get()` and the current schemes using `require('carbide.scheme').get()`. Both are indexable with `'light'` and `'dark'`.
-
-Ports of the colorscheme for terminals can be found in [`extras`](/extras).
+- To enable cursor highlighting, add something like this to your config:
+  ```lua
+  vim.o.guicursor = vim.o.guicursor .. ',a:Cursor/lCursor' -- see :help 'guicursor'
+  ```
+- You can access the current palette using `require('carbide.palette').get()` and the current schemes using `require('carbide.scheme').get()`. Both are indexable with `'light'` and `'dark'`.
+- Ports of the colorscheme for terminals can be found in [`extras`](/extras).
 
 ## Contributing 👥
 
@@ -349,5 +347,3 @@ Any contributions are more than welcome. The sheer amount of plugins out there c
 - To contribute directly, submit a **Pull request**:
   - The plugin code is straightforward: Default colors are defined in the `DEFAULT_PALETTE` table at the top of [`lua/carbide/colors.lua`](/lua/carbide/colors.lua). The actual scheme is defined by the `fill_default_scheme` function inside [`lua/carbide/schemes.lua`](/lua/carbide/schemes.lua). To add support for a plugin, you can start out by simply putting all necessary highlight group definitions in the table under the `work-in-progress plugin integrations` comment at the bottom of said function. Once you're done being creative, mimick the structure of the existing plugin integrations in the function, add a config key for it to [`lua/carbide/config.lua`](/lua/carbide/config.lua) and update the types in [`lua/carbide/types.lua`](/lua/carbide/types.lua) accordingly. If the last few steps are too complicated, submit your PR in an unfinished state.
   - To add support for a terminal, copy the existing configurations as best as possible.
-
-License: [MIT](/LICENSE)
