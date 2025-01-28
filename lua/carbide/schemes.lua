@@ -50,8 +50,8 @@ local function fill_default_scheme(colors)
             FoldColumn = { link = "SignColumn" },
             CursorLineFold = { link = "CursorLineSign" },
 
-            WinBar = { fg = colors.fgu2, bg = colors.bg3 },
-            WinBarNC = { fg = colors.fgu3, bg = colors.bg3 },
+            WinBar = { fg = colors.fg1, bg = colors.bg3 },
+            WinBarNC = { fg = colors.fg2, bg = colors.bg3 },
 
             StatusLine = { fg = colors.fg1, bg = colors.bg5 },
             StatusLineNC = { fg = colors.fg3, bg = colors.bg5 },
