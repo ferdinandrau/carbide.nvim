@@ -35,7 +35,7 @@
 
 ---
 
-## Installation 📦
+## <a name="installation"></a>Installation 📦
 
 You can install carbide.nvim manually or using your plugin manager of choice. All that matters is that it gets placed in a directory where Neovim can find it (see `:help runtimepath` inside Neovim for such locations). Two examples are given below.
 
@@ -67,7 +67,7 @@ git clone https://github.com/ferdinandrau/carbide.nvim \
 }
 ```
 
-## Applying 🎨
+## <a name="applying"></a>Applying 🎨
 
 carbide.nvim registers three colorschemes for you to choose from. They can be appiled via the `apply` function or the Vim command `:colorscheme`, both ways are equivalent.
 
@@ -95,7 +95,7 @@ carbide.nvim registers three colorschemes for you to choose from. They can be ap
   -- vim.cmd.colorscheme('carbide-dark')
   ```
 
-## Configuration ⚙️
+## <a name="configuration"></a>Configuration ⚙️
 
 The `carbide` Lua module also provides a `setup` function to customize the appearance of the colorscheme. It does not have to be called if you are happy with the defaults. Make sure to call it before applying the scheme, otherwise there is no way for your options to take effect.
 
@@ -332,7 +332,7 @@ require('carbide').setup({
 
 </details>
 
-## Extras 🧩
+## <a name="extras"></a>Extras 🎁
 
 - To enable cursor highlighting, add something like this to your config:
   ```lua
@@ -341,7 +341,7 @@ require('carbide').setup({
 - You can access the current palette using `require('carbide.palette').get()` and the current schemes using `require('carbide.scheme').get()`. Both are indexable with `'light'` and `'dark'`.
 - Ports of the colorscheme for terminals can be found in [`extras`](/extras).
 
-## Contributing 👥
+## <a name="contributing"></a>Contributing 👥
 
 Any contributions are more than welcome. The sheer amount of plugins out there combined with limited time and interest in them makes it impossible to support everything alone.
 - For questions on how to do things or showing off your customizations, make a post in **Discussions**.
