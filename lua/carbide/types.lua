@@ -46,6 +46,7 @@
 ---@field gitsigns.nvim boolean
 ---@field telescope.nvim boolean
 ---@field nvim-tree.lua boolean
+---@field neo-tree.nvim boolean
 ---@field mini.icons boolean
 ---@field nvim-cmp boolean
 ---@field blink.cmp boolean
@@ -80,6 +81,7 @@
 ---@field gitsigns.nvim? boolean
 ---@field telescope.nvim? boolean
 ---@field nvim-tree.lua? boolean
+---@field neo-tree.nvim? boolean
 ---@field mini.icons? boolean
 ---@field nvim-cmp? boolean
 ---@field blink.cmp? boolean

@@ -20,6 +20,7 @@ local DEFAULT_CONFIG = {
         ["gitsigns.nvim"] = true,
         ["telescope.nvim"] = true,
         ["nvim-tree.lua"] = true,
+        ["neo-tree.nvim"] = true,
         ["mini.icons"] = true,
         ["nvim-cmp"] = true,
         ["blink.cmp"] = true,
