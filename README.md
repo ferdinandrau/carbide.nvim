@@ -1,5 +1,3 @@
-> 🚧 WIP – Only use if your're not going to do customization yet! 🚧
-
 <h3 align="center">carbide.nvim 🪨</h3>
 
 <p align="center">A configurable Neovim colorscheme with support for Tree-sitter highlighting and many plugins.</p>
@@ -28,6 +26,9 @@
         <td colspan="2"><p align="center"><i>(click on the images to enlarge them)</i></p></td>
     </tr>
 </table>
+
+> [!NOTE]
+> carbide.nvim is a work in progress. While the configuration format is stable there may be slight changes to the colors, their names and their use throughout the colorscheme.
 
 > [!IMPORTANT]
 > Something does not look good in your favorite language or support for a plugin or terminal is missing? Feel free to [open an issue or submit a PR](#contributing) to fix it!
