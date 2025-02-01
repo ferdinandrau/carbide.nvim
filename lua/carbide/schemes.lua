@@ -130,7 +130,7 @@ local function fill_default_scheme(colors)
             Include = { link = "PreProc" },
             Define = { link = "PreProc" },
 
-            Keyword = { fg = colors.fgc_magenta, bold = style.keywords.bold, italic = style.keywords.italic },
+            Keyword = { fg = colors.fgc_red, bold = style.keywords.bold, italic = style.keywords.italic },
             Statement = { link = "Keyword" },
             Conditional = { link = "Keyword" },
             Label = { link = "Keyword" },
@@ -150,10 +150,10 @@ local function fill_default_scheme(colors)
             Debug = { link = "Special" },
             Error = { bg = colors.fgc_red },
 
-            Function = { fg = colors.fgc_blue_dim, bold = style.functions.bold, italic = style.functions.italic },
+            Function = { fg = colors.fgc_blue, bold = style.functions.bold, italic = style.functions.italic },
 
             Identifier = { fg = colors.fg1, bold = style.variables.bold, italic = style.variables.italic },
-            Constant = { fg = colors.fgc_yellow_dim, bold = style.variables.bold, italic = style.variables.italic },
+            Constant = { fg = colors.fgc_magenta, bold = style.variables.bold, italic = style.variables.italic },
             Delimiter = { fg = colors.fg6 },
             Comment = { fg = colors.fg2, bold = style.comments.bold, italic = style.comments.italic },
             Ignore = { fg = colors.fg5 },
@@ -180,7 +180,7 @@ local function fill_default_scheme(colors)
             ["@constant.builtin"] = { link = "Constant" },
             ["@constant.macro"] = { link = "Constant" },
 
-            ["@module"] = { fg = colors.fgc_red },
+            ["@module"] = { fg = colors.fgc_yellow_dim },
             ["@module.builtin"] = { link = "@module" },
 
             ["@label"] = { link = "Label" },
@@ -216,7 +216,7 @@ local function fill_default_scheme(colors)
             ["@function.macro"] = { fg = colors.fgc_blue },
             ["@function.builtin"] = { link = "Keyword" },
 
-            ["@constructor"] = { fg = colors.fgc_blue },
+            ["@constructor"] = { fg = colors.fgc_blue_dim },
             ["@constructor.lua"] = { fg = colors.fg6 },
 
             ["@operator"] = { link = "Operator" },
