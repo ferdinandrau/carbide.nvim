@@ -117,7 +117,7 @@ require('carbide').setup({
 })
 ```
 
-The upcoming three subsections include everything there is to say about `setup`, complete with examples that should hopefully clear up any confusion. If questions persist you can always ask, just make sure to do it [in the right place](#contributing)!
+The upcoming three subsections include everything there is to say about `setup`, complete with examples that should hopefully clear up any confusion. If questions persist you can always ask, just make sure to do it [in the right place](#contributing).
 <!-- </details> -->
 
 <!-- <details><summary><b>Default Options</b> <i>(click to expand)</i></summary> -->
@@ -334,12 +334,18 @@ require('carbide').setup({
 
 ## <a name="extras"></a>Extras 🎁
 
-- To enable cursor highlighting, add something like this to your config:
-  ```lua
-  vim.o.guicursor = vim.o.guicursor .. ',a:Cursor/lCursor' -- see :help 'guicursor'
-  ```
-- You can access the current palette using `require('carbide.palette').get()` and the current schemes using `require('carbide.scheme').get()`. Both are indexable with `'light'` and `'dark'`.
-- Ports of the colorscheme for terminals can be found in [`extras`](/extras).
+To enable cursor highlighting, add something like this to your config:
+```lua
+vim.o.guicursor = vim.o.guicursor .. ',a:Cursor/lCursor' -- see :help 'guicursor'
+```
+
+You can access&#8239;...
+- the current palette using `require('carbide.palette').get()`
+- the current schemes using `require('carbide.schemes').get()`
+
+Both are indexable with `'light'` and `'dark'`.
+
+Ports of the colorscheme for terminals can be found in [`extras`](/extras).
 
 ## <a name="contributing"></a>Contributing 👥
 
