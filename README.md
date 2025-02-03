@@ -16,10 +16,10 @@
     </tr>
     <tr>
         <td width="50%">
-            <img src="assets/showcase_light.png" alt="A preview of the light variant" title="A preview of the light variant (click to enlarge)"/>
+            <img src="https://raw.githubusercontent.com/ferdinandrau/carbide.nvim/refs/heads/main/assets/showcase_light.png" alt="A preview of the light variant" title="A preview of the light variant (click to enlarge)"/>
         </td>
         <td width="50%">
-            <img src="assets/showcase_dark.png" alt="A preview of the dark variant" title="A preview of the dark variant (click to enlarge)"/>
+            <img src="https://raw.githubusercontent.com/ferdinandrau/carbide.nvim/refs/heads/main/assets/showcase_dark.png" alt="A preview of the dark variant" title="A preview of the dark variant (click to enlarge)"/>
         </td>
     </tr>
     <tr>
