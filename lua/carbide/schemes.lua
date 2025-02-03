@@ -89,8 +89,8 @@ local function fill_default_scheme(colors)
             MoreMsg = { fg = colors.fgc_cyan },
             ModeMsg = { fg = colors.fg1 },
 
-            ColorColumn = { bg = colors.red_dim },
-            QuickFixLine = { bg = colors.blue_dim },
+            ColorColumn = { bg = colors.bgc_cyan },
+            QuickFixLine = { bg = colors.bgc_blue },
 
             Conceal = { fg = colors.fg4 },
 
@@ -280,7 +280,12 @@ local function fill_default_scheme(colors)
             DiagnosticVirtualTextWarn = { fg = colors.fgc_yellow, bg = colors.bgc_yellow },
             DiagnosticVirtualTextInfo = { fg = colors.fgc_blue, bg = colors.bgc_blue },
             DiagnosticVirtualTextHint = { fg = colors.fgc_magenta, bg = colors.bgc_magenta },
-            DiagnosticVirtualTextOK = { fg = colors.fgc_green, bg = colors.bgc_green },
+            DiagnosticVirtualTextOk = { fg = colors.fgc_green, bg = colors.bgc_green },
+            DiagnosticVirtualLinesError = { link = "DiagnosticVirtualTextError" },
+            DiagnosticVirtualLinesWarn = { link = "DiagnosticVirtualTextWarn" },
+            DiagnosticVirtualLinesInfo = { link = "DiagnosticVirtualTextInfo" },
+            DiagnosticVirtualLinesHint = { link = "DiagnosticVirtualTextHint" },
+            DiagnosticVirtualLinesOk = { link = "DiagnosticVirtualTextOk" },
             DiagnosticUnderlineError = { sp = colors.fgc_red, undercurl = true },
             DiagnosticUnderlineWarn = { sp = colors.fgc_yellow, undercurl = true },
             DiagnosticUnderlineInfo = { sp = colors.fgc_blue, underline = true },

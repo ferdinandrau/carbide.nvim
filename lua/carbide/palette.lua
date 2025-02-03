@@ -5,7 +5,7 @@ local DEFAULT_PALETTE = {
     light = {
         -- bg shades
         bg1 = "#f2f1f1",
-        bg2 = "#f7f7f7",
+        bg2 = "#f8f8f8",
         bg3 = "#eaeaea",
         bg4 = "#e4e3e4",
         bg5 = "#dcdbdb",
@@ -30,19 +30,18 @@ local DEFAULT_PALETTE = {
         fg6 = "#7f797b",
 
         -- fg colors
-        fgc_red = "#ba3a35",
-        fgc_red_dim = "#c65a47",
-        fgc_yellow = "#d68504",
-        -- fgc_yellow_dim = "#FAA916",
-        fgc_yellow_dim = "#e2970b",
-        fgc_green = "#569f35",
-        fgc_green_dim = "#8ebf5a",
-        fgc_blue = "#3f6fb1",
+        fgc_red = "#c73f3e",
+        fgc_red_dim = "#cb6553",
+        fgc_yellow = "#c78100",
+        fgc_yellow_dim = "#e89b0b",
+        fgc_green = "#43911f",
+        fgc_green_dim = "#50ac25",
+        fgc_blue = "#1563d8",
         fgc_blue_dim = "#588dc4",
         fgc_magenta = "#b4568e",
         fgc_magenta_dim = "#8d77dd",
-        fgc_cyan = "#51968e",
-        fgc_cyan_dim = "#60bab8",
+        fgc_cyan = "#3f968c",
+        fgc_cyan_dim = "#47b8b6",
     },
     dark = {
         -- bg shades
@@ -73,29 +72,12 @@ local DEFAULT_PALETTE = {
 
         -- fg colors
         fgc_red = "#C55350",
-        -- fgc_red_dim = "#D47766",
-        -- fgc_green = "#889b4a",
-        -- fgc_green_dim = "#9FB95E",
-        -- fgc_yellow = "#e29741",
-        -- fgc_magenta = "#B26E97",
-        -- fgc_magenta_dim = "#a197c5",
-        -- fgc_blue = "#537f9f",
-        -- fgc_blue_dim = "#8fa8b7",
-        -- fgc_cyan = "#719F91",
-        -- fgc_cyan_dim = "#82b5b1",
-        -- fgc_red = "#ca595b",
-        -- fgc_red = "#c75c66",
-        -- fgc_red = "#c75c67",
-        -- fgc_red = "#c35e71",
         fgc_red_dim = "#D47766",
-        -- fgc_red_dim = "#d97e77",
         fgc_green = "#889b4a",
         fgc_green_dim = "#9ab25c",
         fgc_yellow = "#e19e54",
-        -- fgc_yellow_dim = "#e2bc6a", -- also good
         fgc_yellow_dim = "#e1b75e",
         fgc_magenta = "#B26E97",
-        -- fgc_magenta_dim = "#aa82ae", -- #95889d
         fgc_magenta_dim = "#b896ba",
         fgc_blue = "#7490ba",
         fgc_blue_dim = "#9baec9",
