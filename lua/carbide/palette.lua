@@ -30,7 +30,7 @@ local DEFAULT_PALETTE = {
         fg6 = "#7f797b",
 
         -- fg colors
-        fgc_red = "#c73f3e",
+        fgc_red = "#cd122a", --
         fgc_red_dim = "#cb6553",
         fgc_yellow = "#c78100",
         fgc_yellow_dim = "#e89b0b",
@@ -38,7 +38,7 @@ local DEFAULT_PALETTE = {
         fgc_green_dim = "#50ac25",
         fgc_blue = "#1563d8",
         fgc_blue_dim = "#588dc4",
-        fgc_magenta = "#b4568e",
+        fgc_magenta = "#ce3390",
         fgc_magenta_dim = "#8d77dd",
         fgc_cyan = "#3f968c",
         fgc_cyan_dim = "#47b8b6",
